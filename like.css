@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+#main2 img{
+    height:40px;
+    width:40px;
+    position: absolute;
+    left: 730px;
+     opacity: 3%;
+     transition: all ease 0.7s;
+     border-radius: 30%;
+}
+
+#main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main1 img{
+    height: 50%;
+    width: 50%;
+    border: 4px solid black;
+}
